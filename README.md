@@ -13,7 +13,11 @@
 
 ## Project summary (<300 words)
 Describe the overall aim of your project and what you have achieved.
+Psilocybin production in corynebracterium.
 
 ## Project overview
 Describe how your project is organized ...
-
+This is a type 2 project.
+Reaction addition is performed in 2021_11_02_Psilocybin_in_Cg.ipynb
+Most calculations so far in JensWorkingCopy.ipynb
+Memote model check in MemoteModelCheck.ipynb
