@@ -1,6 +1,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/27410/[PUT-YOUR-REPOSITORY-HERE]/main)
 
-# 27410 - Group assignment - Group [Group Number] - [TITLE]
+# 27410 - Group assignment - Group [13] - [Psilocybin production in Corynebacterium glutamicum]
 
 > Dear students, thank you for accepting the group assignment. Please fill in the
 > requested information below and above ([Group Number] and [TITLE]) and remove this quoted part before submission (everything prepended with a >).
@@ -13,7 +13,11 @@
 
 ## Project summary (<300 words)
 Describe the overall aim of your project and what you have achieved.
+Psilocybin production in corynebracterium.
 
 ## Project overview
 Describe how your project is organized ...
-
+This is a type 2 project.
+Reaction addition is performed in 2021_11_02_Psilocybin_in_Cg.ipynb
+Most calculations so far in JensWorkingCopy.ipynb
+Memote model check in MemoteModelCheck.ipynb
