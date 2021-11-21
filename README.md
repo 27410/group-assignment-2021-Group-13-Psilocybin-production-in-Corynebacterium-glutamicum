@@ -15,6 +15,11 @@
 Describe the overall aim of your project and what you have achieved.\
 Psilocybin production in corynebracterium.
 
+It is desired to modify the host cell to adapt it for production of new materials. A model for Corynebacterium glutamicum is modified to allow the production of psilocybin, a hallucinogenic compound. Using a series of introduced enzymatic reactions, tryptophan naturally present in the bacterium can be converted into the desired product. 
+
+It is desired to maximize the production of psylocibin while maintaining an acceptable growth rate. For this, it is desired that the production rate and yield of psylocibin in the engineered Corynebacterium should be similar to that found in comparable projects for the expression of psylocibin in a microorganism. 
+Gene optimization methods will be applied to the cell model to improve the theoretical yield of the product. 
+
 ## Project overview
 Describe how your project is organized ...\
 This is a type 2 project.
