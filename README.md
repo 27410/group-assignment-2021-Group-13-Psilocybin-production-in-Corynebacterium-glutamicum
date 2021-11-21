@@ -19,13 +19,13 @@ Psilocybin production in corynebracterium.\
 Describe how your project is organized ...\
 This is a type 2 project.\
 \
-Reaction addition is performed in [2021_11_02_Psilocybin_in_Cg.ipynb](2021_11_02_Psilocybin_in_Cg.ipynb)\
-Cofactor swapping (no result) [2021-11-21-Cofactor-swapping-Tamara.ipynb](2021-11-21-Cofactor-swapping-Tamara.ipynb)\
-Heterologous Pathways (no result) [2021-11-21-Predict-heterologous-pathways-Tamara.ipynb](2021-11-21-Predict-heterologous-pathways-Tamara.ipynb)\
-Phenotype Phase Plane [Phenotype_Phase_Plane_Psilocybin.ipynb](Phenotype_Phase_Plane_Psilocybin.ipynb)\
-Experimentation with Overexpression [fjarcopy.ipynb](fjarcopy.ipynb)\
-Optgene Testing [Rune_working.ipynb](Rune_working.ipynb)\
-Memote model check in [MemoteModelCheck.ipynb](MemoteModelCheck.ipynb)\
+- [x] Reaction addition is performed in [2021_11_02_Psilocybin_in_Cg.ipynb](2021_11_02_Psilocybin_in_Cg.ipynb)\
+- [ ] Cofactor swapping (no result) [2021-11-21-Cofactor-swapping-Tamara.ipynb](2021-11-21-Cofactor-swapping-Tamara.ipynb)\
+- [ ] Heterologous Pathways (no result) [2021-11-21-Predict-heterologous-pathways-Tamara.ipynb](2021-11-21-Predict-heterologous-pathways-Tamara.ipynb)\
+- [x] Phenotype Phase Plane [Phenotype_Phase_Plane_Psilocybin.ipynb](Phenotype_Phase_Plane_Psilocybin.ipynb)\
+- [ ] Experimentation with Overexpression (no result) [fjarcopy.ipynb](fjarcopy.ipynb)\
+- [ ] Optgene Testing (no result) [Rune_working.ipynb](Rune_working.ipynb)\
+- [x] Memote model check in [MemoteModelCheck.ipynb](MemoteModelCheck.ipynb)\
 
 \
 Leftover code can be found in the various NAMEWorkingCopy files.\
