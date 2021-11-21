@@ -12,12 +12,20 @@
 > Good luck!
 
 ## Project summary (<300 words)
-Describe the overall aim of your project and what you have achieved.
+Describe the overall aim of your project and what you have achieved.\
 Psilocybin production in corynebracterium.
 
 ## Project overview
-Describe how your project is organized ...
+Describe how your project is organized ...\
 This is a type 2 project.
-Reaction addition is performed in 2021_11_02_Psilocybin_in_Cg.ipynb
-Most calculations so far in JensWorkingCopy.ipynb
-Memote model check in MemoteModelCheck.ipynb
+
+- [x] Reaction addition is performed in [2021_11_02_Psilocybin_in_Cg.ipynb](2021_11_02_Psilocybin_in_Cg.ipynb)
+- [ ] Cofactor swapping (unsuccessful) [2021-11-21-Cofactor-swapping-Tamara.ipynb](2021-11-21-Cofactor-swapping-Tamara.ipynb)
+- [ ] Heterologous Pathways (unsuccessful) [2021-11-21-Predict-heterologous-pathways-Tamara.ipynb](2021-11-21-Predict-heterologous-pathways-Tamara.ipynb)
+- [x] Phenotype Phase Plane [Phenotype_Phase_Plane_Psilocybin.ipynb](Phenotype_Phase_Plane_Psilocybin.ipynb)
+- [ ] Experimentation with Overexpression (WIP) [fjarcopy.ipynb](fjarcopy.ipynb)
+- [ ] Optgene Testing (unsuccessful) [Rune_working.ipynb](Rune_working.ipynb)
+- [x] Memote model check in [MemoteModelCheck.ipynb](MemoteModelCheck.ipynb)
+
+
+Leftover code can be found in the various NAMEWorkingCopy files.
