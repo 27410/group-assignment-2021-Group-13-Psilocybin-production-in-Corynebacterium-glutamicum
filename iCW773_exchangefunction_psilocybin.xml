@@ -967,8 +967,9 @@
       <species id="M_tryp_c" name="tryptamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C10H12N2"/>
       <species id="M__4htryp_c" name="4-Hydroxytryptamine" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C10H12N2O"/>
       <species id="M_nbc_c" name="Norbaeocystin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C10H13N2O4P"/>
-      <species id="M_baecyst_c" name="Baeocystin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C11H15N2O4P"/>
+      <species id="M_psii_c" name="psilocin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C12H16N2O"/>
       <species id="M_psi_c" name="Psilocybin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C12H17N2O4P"/>
+      <species id="M_baecyst_c" name="Baeocystin" compartment="c" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C11H15N2O4P"/>
       <species id="M_psi_e" name="Psilocybin_e" compartment="e" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false" fbc:chemicalFormula="C12H17N2O4P"/>
     </listOfSpecies>
     <listOfParameters>
@@ -17417,6 +17418,16 @@
           <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction id="R_psiK2" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_psii_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_atp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_psi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_adp_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction id="R_psiM" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_nbc_c" stoichiometry="1" constant="true"/>
@@ -17437,6 +17448,16 @@
           <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction id="R_pho" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_psi_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_h_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="M_psii_c" stoichiometry="1" constant="true"/>
+          <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
+        </listOfProducts>
+      </reaction>
       <reaction id="R_psitpp" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_psi_c" stoichiometry="1" constant="true"/>
@@ -17447,9 +17468,39 @@
           <speciesReference species="M_pi_c" stoichiometry="1" constant="true"/>
         </listOfProducts>
       </reaction>
+      <reaction metaid="meta_R_DM_tryp_c" sboTerm="SBO:0000628" id="R_DM_tryp_c" name="tryptamine demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_tryp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_DM__4htryp_c" sboTerm="SBO:0000628" id="R_DM__4htryp_c" name="4-Hydroxytryptamine demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M__4htryp_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_DM_nbc_c" sboTerm="SBO:0000628" id="R_DM_nbc_c" name="Norbaeocystin demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_nbc_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
       <reaction metaid="meta_R_EX_psi_e" sboTerm="SBO:0000627" id="R_EX_psi_e" name="Psilocybin_e exchange" reversible="true" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
         <listOfReactants>
           <speciesReference species="M_psi_e" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_DM_amet_c" sboTerm="SBO:0000628" id="R_DM_amet_c" name="S-AdenosyL_L_methionine demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_amet_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_DM_ahcys_c" sboTerm="SBO:0000628" id="R_DM_ahcys_c" name="S-AdenosyL_L_homocysteine demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_ahcys_c" stoichiometry="1" constant="true"/>
+        </listOfReactants>
+      </reaction>
+      <reaction metaid="meta_R_DM_psii_c" sboTerm="SBO:0000628" id="R_DM_psii_c" name="psilocin demand" reversible="false" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+        <listOfReactants>
+          <speciesReference species="M_psii_c" stoichiometry="1" constant="true"/>
         </listOfReactants>
       </reaction>
     </listOfReactions>
