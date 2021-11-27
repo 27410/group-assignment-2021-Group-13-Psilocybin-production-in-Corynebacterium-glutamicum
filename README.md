@@ -15,14 +15,14 @@ Gene optimization methods will be applied to the cell model (iCW773) to improve 
 ## Project overview
 Describe how your project is organized ...\
 This is a type 2 project.
+<ol>
+<li> Reaction addition is performed in [1._Add_Psilocybin_to_Coynebacterium_Model.ipynb](1._Add_Psilocybin_to_Coynebacterium_Model.ipynb) </li>
+<li> Memote model check in [2._MemoteModelCheck.ipynb](2._MemoteModelCheck.ipynb) </li>
+<li> Phenotype Phase Plane [3._Phenotype_Phase_Plane_Psilocybin.ipynb](3._Phenotype_Phase_Plane_Psilocybin.ipynb) </li>
+<li> Production Flux Investigation [4._Production_Rate_Overview.ipynb](4._Production_Rate_Overview.ipynb) </li>
+<li> Heterologous Pathways (unsuccessful) [5._Predict_heterologous_pathways.ipynb](5._Predict_heterologous_pathways.ipynb) </li>
+<li> Cofactor swapping (unsuccessful) [6._Cofactor_swapping.ipynb](6._Cofactor_swapping.ipynb)</li>
+<li> Optgene Testing (unsuccessful) [7_Gene_Optimization.ipynb](7_Gene_Optimization.ipynb) </li>
+<li> Experimentation with Overexpression [8_FSEOF.ipynb](8_FSEOF.ipynb) </li>
 
-- [x] Reaction addition is performed in [2021_11_02_Psilocybin_in_Cg.ipynb](2021_11_02_Psilocybin_in_Cg.ipynb)
-- [ ] Cofactor swapping (unsuccessful) [2021-11-21-Cofactor-swapping-Tamara.ipynb](2021-11-21-Cofactor-swapping-Tamara.ipynb)
-- [ ] Heterologous Pathways (unsuccessful) [2021-11-21-Predict-heterologous-pathways-Tamara.ipynb](2021-11-21-Predict-heterologous-pathways-Tamara.ipynb)
-- [x] Phenotype Phase Plane [Phenotype_Phase_Plane_Psilocybin.ipynb](Phenotype_Phase_Plane_Psilocybin.ipynb)
-- [ ] Experimentation with Overexpression (WIP) [fjarcopy.ipynb](fjarcopy.ipynb)
-- [ ] Optgene Testing (unsuccessful) [Rune_working.ipynb](Rune_working.ipynb)
-- [x] Memote model check in [MemoteModelCheck.ipynb](MemoteModelCheck.ipynb)
-
-
-Leftover code can be found in the various NAMEWorkingCopy files.
+There is a folder containing old files and working copies which are no longer supported.
