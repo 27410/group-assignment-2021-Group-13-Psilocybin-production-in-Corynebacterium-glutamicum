@@ -13,9 +13,10 @@ It is desired to maximize the production of psylocibin while maintaining an acce
 Gene optimization methods will be applied to the cell model (iCW773) to improve the theoretical yield of the product. 
 
 ## Project overview
-Describe how your project is organized ...  
-This is a type 2 project. Code is compiled in 8 separate documents:  
-  
+This is the [README.md](README.md) file, containing a description of the project and overview of code locations.
+
+Our main [Report](Report.ipynb) contains more details and explanation behind the code.   
+This is a type 2 project, Selection and assessment of existing GSM. Code is compiled in 8 separate documents:  
 1. Reaction addition is performed in [1._Add_Psilocybin_to_Coynebacterium_Model.ipynb](1._Add_Psilocybin_to_Coynebacterium_Model.ipynb)   
 2. Memote model check in [2._MemoteModelCheck.ipynb](2._MemoteModelCheck.ipynb)   
 3. Phenotype Phase Plane [3._Phenotype_Phase_Plane_Psilocybin.ipynb](3._Phenotype_Phase_Plane_Psilocybin.ipynb)  
@@ -25,5 +26,12 @@ This is a type 2 project. Code is compiled in 8 separate documents:
 7. Optgene Testing (unsuccessful) [7_Gene_Optimization.ipynb](7_Gene_Optimization.ipynb)  
 8. Experimentation with Overexpression [8_FSEOF.ipynb](8_FSEOF.ipynb)  
   
-  
-There is a folder containing old files and working copies which are no longer supported.
+
+Two XML files contain the model. The original Corynebacterium bacterium model [iCW773_test7.xml](iCW773_test7.xml), and modified for psilocybin production [iCW773_psilocybin.xml](iCW773_psilocybin.xml)   
+
+Memote yielded the following reports. Original Code [MemoteReportCorynebacterium.html](MemoteReportCorynebacterium.html) and modified for psilocybin production [MemoteReportPsilocybin.html](MemoteReportPsilocybin.html).    
+
+[requirements.txt](requirements.txt) contains packages that may be required to run the code.   
+
+
+There is a [folder](Old_Files) containing old files and working copies which are no longer supported, and a [folder](Pictures) containing pictures for the report.
