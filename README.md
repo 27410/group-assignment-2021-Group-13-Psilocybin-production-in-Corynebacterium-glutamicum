@@ -17,7 +17,7 @@ This is a type 2 project, Selection and assessment of existing GSM. Code is comp
 5. Heterologous Pathways (unsuccessful) [5._Predict_heterologous_pathways.ipynb](5._Predict_heterologous_pathways.ipynb)  
 6. Cofactor swapping (unsuccessful) [6._Cofactor_swapping.ipynb](6._Cofactor_swapping.ipynb)  
 7. Optgene Testing (unsuccessful) [7_Gene_Optimization.ipynb](7_Gene_Optimization.ipynb)  
-8. Experimentation with Overexpression [8_FSEOF.ipynb](8_FSEOF.ipynb)  
+8. Experimentation with Overexpression [8._FSEOF.ipynb](8._FSEOF.ipynb)  
   
 
 Two XML files contain the model. The original Corynebacterium bacterium model [iCW773_test7.xml](iCW773_test7.xml), and modified for psilocybin production [iCW773_psilocybin.xml](iCW773_psilocybin.xml)   
