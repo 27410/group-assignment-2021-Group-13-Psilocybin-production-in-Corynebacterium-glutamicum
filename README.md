@@ -18,6 +18,7 @@ This is a type 2 project, Selection and assessment of existing GSM. Code is comp
 6. Cofactor swapping (unsuccessful) [6._Cofactor_swapping.ipynb](6._Cofactor_swapping.ipynb)  
 7. Optgene Testing (unsuccessful) [7_Gene_Optimization.ipynb](7_Gene_Optimization.ipynb)  
 8. Experimentation with Overexpression [8._FSEOF.ipynb](8._FSEOF.ipynb)  
+9. Upregulation of Discovered Genes [9._Yields_for_Original_And_Upregulated.ipynb](9._Yields_for_Original_And_Upregulated.ipynb)
   
 
 Two XML files contain the model. The original Corynebacterium bacterium model [iCW773_test7.xml](iCW773_test7.xml), and modified for psilocybin production [iCW773_psilocybin.xml](iCW773_psilocybin.xml)   
