@@ -3,14 +3,7 @@
 # 27410 - Group assignment - Group [13] - [Psilocybin production in Corynebacterium glutamicum]
 
 ## Project summary (<300 words)
-Describe the overall aim of your project and what you have achieved.\
-Psilocybin production in Corynebacterium glutamicum.
-
-It is desired to modify the host cell to adapt it for production of new materials. A model for Corynebacterium glutamicum is modified to allow the production of psilocybin, a hallucinogenic compound, which is currently seen as promising future medicine in order to treat depressions and other mental afflictions. 
-For implementation of the syntethic pathway we are introducing a series of enzymatic reactions, which were already reported and succesfully implemented to S. cerevisiae. The syntethic pathways starts from the amino-acid L-tryptophan, which is naturally present in C. glutamicum. Priviously, C. glutamicum was successfully used for the production of L-tryptophan derived products. And thus was selected for this project.
-
-It is desired to maximize the production of psylocibin while maintaining an acceptable growth rate. For this, it is desired that the production rate and yield of psylocibin in the engineered Corynebacterium should be similar to yields reported previously using S. cerevisiae or E.coli as cell-factory. 
-Gene optimization methods will be applied to the cell model (iCW773) to improve the theoretical yield of the product. 
+It is desired to modify the host cell to adapt it for production of a new compound. In order to achieve this a model for Corynebacterium glutamicum (iCW773) [1] is modified, by the addition of a synthetic pathway, to allow the production of psilocybin, a hallucinogenic compound, which is currently seen as promising future medicine in order to treat depressions and other mental afflictions. For implementation of the synthetic pathway we are introducing a series of enzymatic reactions, which were already reported and successfully implemented to S. cerevisiae[2]. The synthetic pathways starts from the amino-acid L-tryptophan, which is naturally present in C. glutamicum. Previously, C. glutamicum was successfully used for the production of L-tryptophan derived products, such as violacein or brominated L-tryptophan[3], [4]. Thus, the production of psilocybin from L-tryptophan was selected as promising strategy for this project. This project is not only aiming for adding psilocybin as new product to the portfolio of C. glutamicum, but also intends to optimize the production rate and yield for psilocybin. Optimally, C. glutamicum shows higher potential for the production of psilocybin than previously engineered cell-factories such as S. cerevisiae or E.coli[2], [5].
 
 ## Project overview
 This is the [README.md](README.md) file, containing a description of the project and overview of code locations.
@@ -24,7 +17,8 @@ This is a type 2 project, Selection and assessment of existing GSM. Code is comp
 5. Heterologous Pathways (unsuccessful) [5._Predict_heterologous_pathways.ipynb](5._Predict_heterologous_pathways.ipynb)  
 6. Cofactor swapping (unsuccessful) [6._Cofactor_swapping.ipynb](6._Cofactor_swapping.ipynb)  
 7. Optgene Testing (unsuccessful) [7_Gene_Optimization.ipynb](7_Gene_Optimization.ipynb)  
-8. Experimentation with Overexpression [8_FSEOF.ipynb](8_FSEOF.ipynb)  
+8. Experimentation with Overexpression [8._FSEOF.ipynb](8._FSEOF.ipynb)  
+9. Upregulation of Discovered Genes [9._Yields_for_Original_And_Upregulated.ipynb](9._Yields_for_Original_And_Upregulated.ipynb)
   
 
 Two XML files contain the model. The original Corynebacterium bacterium model [iCW773_test7.xml](iCW773_test7.xml), and modified for psilocybin production [iCW773_psilocybin.xml](iCW773_psilocybin.xml)   
