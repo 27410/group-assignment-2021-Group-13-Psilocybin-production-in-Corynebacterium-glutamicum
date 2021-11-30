@@ -10,7 +10,7 @@ This is the [README.md](README.md) file, containing a description of the project
 
 Our main [Report](Report.ipynb) contains more details and explanation behind the code.   
 This is a type 2 project, Selection and assessment of existing GSM. Code is compiled in 10 separate documents:  
-1. Reaction addition is performed in [01._Add_Psilocybin_to_Coynebacterium_Model.ipynb](01._Add_Psilocybin_to_Coynebacterium_Model.ipynb)   
+1. Reaction addition is performed in [1._Add_Psilocybin_to_Coynebacterium_Model.ipynb](1._Add_Psilocybin_to_Coynebacterium_Model.ipynb)   
 2. Memote model check in [02._MemoteModelCheck.ipynb](02._MemoteModelCheck.ipynb)   
 3. Phenotype Phase Plane [03._Phenotype_Phase_Plane_Psilocybin.ipynb](03._Phenotype_Phase_Plane_Psilocybin.ipynb)  
 4. Production Flux Investigation [04._Production_Rate_Overview.ipynb](04._Production_Rate_Overview.ipynb)   
