@@ -17,7 +17,7 @@ This is a type 2 project, Selection and assessment of existing GSM. Code is comp
 5. Heterologous Pathways (unsuccessful) [05._Predict_heterologous_pathways.ipynb](05._Predict_heterologous_pathways.ipynb)  
 6. Cofactor swapping (unsuccessful) [06._Cofactor_swapping.ipynb](06._Cofactor_swapping.ipynb)  
 7. Optgene and OptKnock testing (unsuccessful) [07._Gene_Optimization.ipynb](07._Gene_Optimization.ipynb)  
-8. Identifying Targets for Up and Down Regulation [08._FSEOF.ipynb](8._FSEOF.ipynb)
+8. Identifying Targets for Up and Down Regulation [08._FSEOF.ipynb](08._FSEOF.ipynb)
 9. Upregulation of Discovered Genes [09._Manually_selected_targets.ipynb](09._Manually_selected_targets.ipynb)
 10. Identification of Bottleneck [10._Bottleneck.ipynb](10._Bottleneck.ipynb)
   
