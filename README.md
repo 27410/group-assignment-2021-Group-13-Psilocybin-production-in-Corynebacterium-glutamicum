@@ -10,15 +10,15 @@ This is the [README.md](README.md) file, containing a description of the project
 
 Our main [Report](Report.ipynb) contains more details and explanation behind the code.   
 This is a type 2 project, Selection and assessment of existing GSM. Code is compiled in 10 separate documents:  
-1. Reaction addition is performed in [1._Add_Psilocybin_to_Coynebacterium_Model.ipynb](1._Add_Psilocybin_to_Coynebacterium_Model.ipynb)   
-2. Memote model check in [2._MemoteModelCheck.ipynb](2._MemoteModelCheck.ipynb)   
-3. Phenotype Phase Plane [3._Phenotype_Phase_Plane_Psilocybin.ipynb](3._Phenotype_Phase_Plane_Psilocybin.ipynb)  
-4. Production Flux Investigation [4._Production_Rate_Overview.ipynb](4._Production_Rate_Overview.ipynb)   
-5. Heterologous Pathways (unsuccessful) [5._Predict_heterologous_pathways.ipynb](5._Predict_heterologous_pathways.ipynb)  
-6. Cofactor swapping (unsuccessful) [6._Cofactor_swapping.ipynb](6._Cofactor_swapping.ipynb)  
-7. Optgene and OptKnock testing (unsuccessful) [7_Gene_Optimization.ipynb](7_Gene_Optimization.ipynb)  
-8. Experimentation with Overexpression [8._FSEOF.ipynb](8._FSEOF.ipynb)  and [Manually_selected_targets.ipynb](Manually_selected_targets.ipynb)
-9. Upregulation of Discovered Genes [9._Yields_for_Original_And_Upregulated.ipynb](9._Yields_for_Original_And_Upregulated.ipynb)
+1. Reaction addition is performed in [01._Add_Psilocybin_to_Coynebacterium_Model.ipynb](01._Add_Psilocybin_to_Coynebacterium_Model.ipynb)   
+2. Memote model check in [02._MemoteModelCheck.ipynb](02._MemoteModelCheck.ipynb)   
+3. Phenotype Phase Plane [03._Phenotype_Phase_Plane_Psilocybin.ipynb](03._Phenotype_Phase_Plane_Psilocybin.ipynb)  
+4. Production Flux Investigation [04._Production_Rate_Overview.ipynb](04._Production_Rate_Overview.ipynb)   
+5. Heterologous Pathways (unsuccessful) [05._Predict_heterologous_pathways.ipynb](05._Predict_heterologous_pathways.ipynb)  
+6. Cofactor swapping (unsuccessful) [06._Cofactor_swapping.ipynb](06._Cofactor_swapping.ipynb)  
+7. Optgene and OptKnock testing (unsuccessful) [07._Gene_Optimization.ipynb](07._Gene_Optimization.ipynb)  
+8. Identifying Targets for Up and Down Regulation [08._FSEOF.ipynb](8._FSEOF.ipynb)
+9. Upregulation of Discovered Genes [09._Manually_selected_targets.ipynb](09._Manually_selected_targets.ipynb)
 10. Identification of Bottleneck [10._Bottleneck.ipynb](10._Bottleneck.ipynb)
   
 
